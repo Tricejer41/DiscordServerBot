@@ -1,0 +1,678 @@
+{
+    "disponibles": [
+        {
+            "nombre": "Ahri",
+            "region": "Ionia"
+        },
+        {
+            "nombre": "Alistar",
+            "region": "Nocturne"
+        },
+        {
+            "nombre": "Ambessa",
+            "region": "Desconocida"
+        },
+        {
+            "nombre": "Amumu",
+            "region": "Shurima"
+        },
+        {
+            "nombre": "Anivia",
+            "region": "Freljord"
+        },
+        {
+            "nombre": "Annie",
+            "region": "Noxus"
+        },
+        {
+            "nombre": "Ashe",
+            "region": "Freljord"
+        },
+        {
+            "nombre": "Aurelion Sol",
+            "region": "Targon"
+        },
+        {
+            "nombre": "Aurora",
+            "region": "Freljord"
+        },
+        {
+            "nombre": "Azir",
+            "region": "Shurima"
+        },
+        {
+            "nombre": "Bardo",
+            "region": "Desconocida"
+        },
+        {
+            "nombre": "Bel'Veth",
+            "region": "Las sombras de Runaterra"
+        },
+        {
+            "nombre": "Blitzcrank",
+            "region": "Zaun"
+        },
+        {
+            "nombre": "Brand",
+            "region": "Freljord"
+        },
+        {
+            "nombre": "Braum",
+            "region": "Freljord"
+        },
+        {
+            "nombre": "Briar",
+            "region": "Desconocida"
+        },
+        {
+            "nombre": "Caitlyn",
+            "region": "Piltover"
+        },
+        {
+            "nombre": "Camille",
+            "region": "Piltover"
+        },
+        {
+            "nombre": "Cassiopeia",
+            "region": "Noxus"
+        },
+        {
+            "nombre": "Cho'Gath",
+            "region": "Desconocida"
+        },
+        {
+            "nombre": "Corki",
+            "region": "Piltover"
+        },
+        {
+            "nombre": "Darius",
+            "region": "Noxus"
+        },
+        {
+            "nombre": "Diana",
+            "region": "Targon"
+        },
+        {
+            "nombre": "Dr. Mundo",
+            "region": "Zaun"
+        },
+        {
+            "nombre": "Draven",
+            "region": "Noxus"
+        },
+        {
+            "nombre": "Ekko",
+            "region": "Zaun"
+        },
+        {
+            "nombre": "Elise",
+            "region": "Noxus"
+        },
+        {
+            "nombre": "Evelynn",
+            "region": "Desconocida"
+        },
+        {
+            "nombre": "Ezreal",
+            "region": "Piltover"
+        },
+        {
+            "nombre": "Fiddlesticks",
+            "region": "Desconocida"
+        },
+        {
+            "nombre": "Fiora",
+            "region": "Demacia"
+        },
+        {
+            "nombre": "Fizz",
+            "region": "Bilgewater"
+        },
+        {
+            "nombre": "Galio",
+            "region": "Demacia"
+        },
+        {
+            "nombre": "Gangplank",
+            "region": "Bilgewater"
+        },
+        {
+            "nombre": "Garen",
+            "region": "Demacia"
+        },
+        {
+            "nombre": "Gnar",
+            "region": "Freljord"
+        },
+        {
+            "nombre": "Gragas",
+            "region": "Desconocida"
+        },
+        {
+            "nombre": "Graves",
+            "region": "Bilgewater"
+        },
+        {
+            "nombre": "Gwen",
+            "region": "Desconocida"
+        },
+        {
+            "nombre": "Hecarim",
+            "region": "Shadow Isles"
+        },
+        {
+            "nombre": "Heimerdinger",
+            "region": "Piltover"
+        },
+        {
+            "nombre": "Hwei",
+            "region": "Desconocida"
+        },
+        {
+            "nombre": "Illaoi",
+            "region": "Bilgewater"
+        },
+        {
+            "nombre": "Irelia",
+            "region": "Ionia"
+        },
+        {
+            "nombre": "Ivern",
+            "region": "Bosque de Ionia"
+        },
+        {
+            "nombre": "Janna",
+            "region": "Desconocida"
+        },
+        {
+            "nombre": "Jarvan IV",
+            "region": "Demacia"
+        },
+        {
+            "nombre": "Jax",
+            "region": "Desconocida"
+        },
+        {
+            "nombre": "Jayce",
+            "region": "Piltover"
+        },
+        {
+            "nombre": "Jhin",
+            "region": "Ionia"
+        },
+        {
+            "nombre": "Jinx",
+            "region": "Zaun"
+        },
+        {
+            "nombre": "K'Sante",
+            "region": "Desconocida"
+        },
+        {
+            "nombre": "Kai'Sa",
+            "region": "Desconocida"
+        },
+        {
+            "nombre": "Kalista",
+            "region": "Shadow Isles"
+        },
+        {
+            "nombre": "Karma",
+            "region": "Ionia"
+        },
+        {
+            "nombre": "Karthus",
+            "region": "Shadow Isles"
+        },
+        {
+            "nombre": "Kassadin",
+            "region": "Desconocida"
+        },
+        {
+            "nombre": "Katarina",
+            "region": "Noxus"
+        },
+        {
+            "nombre": "Kayle",
+            "region": "Demacia"
+        },
+        {
+            "nombre": "Kayn",
+            "region": "Shadow Isles"
+        },
+        {
+            "nombre": "Kennen",
+            "region": "Ionia"
+        },
+        {
+            "nombre": "Kha'Zix",
+            "region": "Void"
+        },
+        {
+            "nombre": "Kindred",
+            "region": "Desconocida"
+        },
+        {
+            "nombre": "Kled",
+            "region": "Noxus"
+        },
+        {
+            "nombre": "Kog'Maw",
+            "region": "Void"
+        },
+        {
+            "nombre": "LeBlanc",
+            "region": "Noxus"
+        },
+        {
+            "nombre": "Lee Sin",
+            "region": "Ionia"
+        },
+        {
+            "nombre": "Leona",
+            "region": "Targon"
+        },
+        {
+            "nombre": "Lillia",
+            "region": "Ionia"
+        },
+        {
+            "nombre": "Lissandra",
+            "region": "Freljord"
+        },
+        {
+            "nombre": "Lucian",
+            "region": "Desconocida"
+        },
+        {
+            "nombre": "Lulu",
+            "region": "Bandle City"
+        },
+        {
+            "nombre": "Lux",
+            "region": "Demacia"
+        },
+        {
+            "nombre": "Maestro Yi",
+            "region": "Ionia"
+        },
+        {
+            "nombre": "Malphite",
+            "region": "Desconocida"
+        },
+        {
+            "nombre": "Malzahar",
+            "region": "Void"
+        },
+        {
+            "nombre": "Maokai",
+            "region": "Shadow Isles"
+        },
+        {
+            "nombre": "Mel",
+            "region": "Desconocida"
+        },
+        {
+            "nombre": "Milio",
+            "region": "Desconocida"
+        },
+        {
+            "nombre": "Miss Fortune",
+            "region": "Bilgewater"
+        },
+        {
+            "nombre": "Mordekaiser",
+            "region": "Shadow Isles"
+        },
+        {
+            "nombre": "Morgana",
+            "region": "Desconocida"
+        },
+        {
+            "nombre": "Naafiri",
+            "region": "Desconocida"
+        },
+        {
+            "nombre": "Nami",
+            "region": "Marai"
+        },
+        {
+            "nombre": "Nasus",
+            "region": "Shurima"
+        },
+        {
+            "nombre": "Nautilus",
+            "region": "Desconocida"
+        },
+        {
+            "nombre": "Neeko",
+            "region": "Ixtal"
+        },
+        {
+            "nombre": "Nidalee",
+            "region": "Desconocida"
+        },
+        {
+            "nombre": "Nilah",
+            "region": "Desconocida"
+        },
+        {
+            "nombre": "Nocturne",
+            "region": "Las sombras de Runaterra"
+        },
+        {
+            "nombre": "Nunu y Willump",
+            "region": "Freljord"
+        },
+        {
+            "nombre": "Olaf",
+            "region": "Freljord"
+        },
+        {
+            "nombre": "Orianna",
+            "region": "Zaun"
+        },
+        {
+            "nombre": "Ornn",
+            "region": "Freljord"
+        },
+        {
+            "nombre": "Pantheon",
+            "region": "Desconocida"
+        },
+        {
+            "nombre": "Poppy",
+            "region": "Demacia"
+        },
+        {
+            "nombre": "Pyke",
+            "region": "Bilgewater"
+        },
+        {
+            "nombre": "Qiyana",
+            "region": "Ixtal"
+        },
+        {
+            "nombre": "Quinn",
+            "region": "Demacia"
+        },
+        {
+            "nombre": "Rakan",
+            "region": "Ionia"
+        },
+        {
+            "nombre": "Rammus",
+            "region": "Nocturne"
+        },
+        {
+            "nombre": "Rek'Sai",
+            "region": "Desconocida"
+        },
+        {
+            "nombre": "Rell",
+            "region": "Desconocida"
+        },
+        {
+            "nombre": "Renata Glasc",
+            "region": "Zaun"
+        },
+        {
+            "nombre": "Renekton",
+            "region": "Shurima"
+        },
+        {
+            "nombre": "Rengar",
+            "region": "Kinkou"
+        },
+        {
+            "nombre": "Riven",
+            "region": "Noxus"
+        },
+        {
+            "nombre": "Rumble",
+            "region": "Zaun"
+        },
+        {
+            "nombre": "Ryze",
+            "region": "Runaterra"
+        },
+        {
+            "nombre": "Samira",
+            "region": "Desconocida"
+        },
+        {
+            "nombre": "Sejuani",
+            "region": "Freljord"
+        },
+        {
+            "nombre": "Senna",
+            "region": "Desconocida"
+        },
+        {
+            "nombre": "Seraphine",
+            "region": "Piltover"
+        },
+        {
+            "nombre": "Sett",
+            "region": "Zaun"
+        },
+        {
+            "nombre": "Shaco",
+            "region": "Desconocida"
+        },
+        {
+            "nombre": "Shen",
+            "region": "Ionia"
+        },
+        {
+            "nombre": "Shyvana",
+            "region": "Demacia"
+        },
+        {
+            "nombre": "Singed",
+            "region": "Zaun"
+        },
+        {
+            "nombre": "Sion",
+            "region": "Noxus"
+        },
+        {
+            "nombre": "Sivir",
+            "region": "Desconocida"
+        },
+        {
+            "nombre": "Skarner",
+            "region": "Shurima"
+        },
+        {
+            "nombre": "Smolder",
+            "region": "Desconocida"
+        },
+        {
+            "nombre": "Sona",
+            "region": "Demacia"
+        },
+        {
+            "nombre": "Soraka",
+            "region": "Ionia"
+        },
+        {
+            "nombre": "Swain",
+            "region": "Noxus"
+        },
+        {
+            "nombre": "Sylas",
+            "region": "Demacia"
+        },
+        {
+            "nombre": "Syndra",
+            "region": "Ionia"
+        },
+        {
+            "nombre": "Tahm Kench",
+            "region": "Desconocida"
+        },
+        {
+            "nombre": "Taliyah",
+            "region": "Ixtal"
+        },
+        {
+            "nombre": "Talon",
+            "region": "Noxus"
+        },
+        {
+            "nombre": "Taric",
+            "region": "Targon"
+        },
+        {
+            "nombre": "Teemo",
+            "region": "Bandle City"
+        },
+        {
+            "nombre": "Thresh",
+            "region": "Desconocida"
+        },
+        {
+            "nombre": "Tristana",
+            "region": "Bilgewater"
+        },
+        {
+            "nombre": "Trundle",
+            "region": "Freljord"
+        },
+        {
+            "nombre": "Tryndamere",
+            "region": "Freljord"
+        },
+        {
+            "nombre": "Twisted Fate",
+            "region": "Bilgewater"
+        },
+        {
+            "nombre": "Twitch",
+            "region": "Zaun"
+        },
+        {
+            "nombre": "Udyr",
+            "region": "Ixtal"
+        },
+        {
+            "nombre": "Urgot",
+            "region": "Noxus"
+        },
+        {
+            "nombre": "Varus",
+            "region": "Demacia"
+        },
+        {
+            "nombre": "Vayne",
+            "region": "Demacia"
+        },
+        {
+            "nombre": "Veigar",
+            "region": "Desconocida"
+        },
+        {
+            "nombre": "Vel'Koz",
+            "region": "Void"
+        },
+        {
+            "nombre": "Vex",
+            "region": "Demacia"
+        },
+        {
+            "nombre": "Vi",
+            "region": "Piltover"
+        },
+        {
+            "nombre": "Viego",
+            "region": "Las sombras de Runaterra"
+        },
+        {
+            "nombre": "Viktor",
+            "region": "Zaun"
+        },
+        {
+            "nombre": "Vladimir",
+            "region": "Noxus"
+        },
+        {
+            "nombre": "Volibear",
+            "region": "Freljord"
+        },
+        {
+            "nombre": "Warwick",
+            "region": "Zaun"
+        },
+        {
+            "nombre": "Wukong",
+            "region": "Ionia"
+        },
+        {
+            "nombre": "Xayah",
+            "region": "Ixtal"
+        },
+        {
+            "nombre": "Xerath",
+            "region": "Shurima"
+        },
+        {
+            "nombre": "Xin Zhao",
+            "region": "Demacia"
+        },
+        {
+            "nombre": "Yasuo",
+            "region": "Ionia"
+        },
+        {
+            "nombre": "Yone",
+            "region": "Ionia"
+        },
+        {
+            "nombre": "Yorick",
+            "region": "Nocturne"
+        },
+        {
+            "nombre": "Yuumi",
+            "region": "Bandle City"
+        },
+        {
+            "nombre": "Zac",
+            "region": "Zaun"
+        },
+        {
+            "nombre": "Zed",
+            "region": "Ionia"
+        },
+        {
+            "nombre": "Zeri",
+            "region": "Zaun"
+        },
+        {
+            "nombre": "Ziggs",
+            "region": "Piltover"
+        },
+        {
+            "nombre": "Zilean",
+            "region": "Demacia"
+        },
+        {
+            "nombre": "Zoe",
+            "region": "Desconocida"
+        },
+        {
+            "nombre": "Zyra",
+            "region": "Ionia"
+        }
+    ],
+    "asignados": {
+        "1318666952679489616": {
+            "nombre": "Akali",
+            "region": "Ionia"
+        },
+        "1333136294670368809": {
+            "nombre": "Akshan",
+            "region": "Shurima"
+        }
+    }
+}
