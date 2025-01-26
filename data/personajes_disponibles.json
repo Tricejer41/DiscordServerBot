@@ -5,14 +5,6 @@
             "region": "Ionia"
         },
         {
-            "nombre": "Alistar",
-            "region": "Nocturne"
-        },
-        {
-            "nombre": "Ambessa",
-            "region": "Desconocida"
-        },
-        {
             "nombre": "Amumu",
             "region": "Shurima"
         },
@@ -667,12 +659,12 @@
     ],
     "asignados": {
         "1318666952679489616": {
-            "nombre": "Akali",
-            "region": "Ionia"
+            "nombre": "Ambessa",
+            "region": "Desconocida"
         },
         "1333136294670368809": {
-            "nombre": "Akshan",
-            "region": "Shurima"
+            "nombre": "Alistar",
+            "region": "Nocturne"
         }
     }
 }

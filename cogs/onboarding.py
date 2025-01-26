@@ -79,7 +79,7 @@ class PersonajeDropdown(ui.Select):
         self.respuestas = respuestas
 
         opciones = [
-            discord.SelectOption(label=personaje["nombre"], description=f"Región: {personaje['region']}")
+            discord.SelectOption(label=personaje["nombre"], description=f"Región: {personaje['region']}" if "region" in personaje else "Región desconocida")
             for personaje in personajes
         ]
 
@@ -112,21 +112,39 @@ class PersonajeDropdown(ui.Select):
                 json.dump(data, f, indent=4)
 
         await interaction.response.send_message(
-            f"Has seleccionado el personaje **{personaje_seleccionado}** de la región **{personaje['region']}**. ¡Bienvenido al servidor!",
+            f"Has seleccionado el personaje **{personaje_seleccionado}** de la región **{personaje.get('region', 'desconocida')}**. ¡Bienvenido al servidor!",
             ephemeral=True
         )
 
+        # Cambiar el apodo del miembro al nombre del personaje seleccionado
+        try:
+            await self.member.edit(nick=personaje_seleccionado)
+            logging.info(f"Apodo de {self.member.name}#{self.member.discriminator} cambiado a {personaje_seleccionado}")
+        except discord.Forbidden:
+            logging.warning(f"No se pudo cambiar el apodo de {self.member.name}#{self.member.discriminator}. Permisos insuficientes.")
+        except Exception as e:
+            logging.error(f"Error al cambiar el apodo de {self.member.name}#{self.member.discriminator}: {e}")
+
+        # Crear un embed para el mensaje de bienvenida
         canal_bienvenida = discord.utils.get(self.member.guild.text_channels, name="bienvenida")
         if canal_bienvenida:
-            ficha = (
-                f"**Ficha de {self.member.display_name}**\n"
-                f"**Edad:** {self.respuestas.get('¿Cuál es tu edad?')}\n"
-                f"**Nick:** {self.respuestas.get('¿Cuál será tu nick?')}\n"
-                f"**Hobbies:** {self.respuestas.get('¿Cuáles son tus hobbies?')}\n"
-                f"**Personaje:** {personaje_seleccionado}\n"
-                f"**Región:** {personaje['region']}\n"
+            # Generar el URL de la imagen del personaje
+            personaje_image_url = f"https://ddragon.leagueoflegends.com/cdn/img/champion/splash/{personaje_seleccionado}_0.jpg"
+
+            embed = discord.Embed(
+                title=f"¡Bienvenido {self.member.display_name}! 🎉",
+                description=f"Se unió al servidor y ha elegido a **{personaje_seleccionado}**.",
+                color=discord.Color.blue()
             )
-            await canal_bienvenida.send(f"{self.member.mention}\n{ficha}")
+            embed.add_field(name="Edad", value=self.respuestas.get('¿Cuál es tu edad?'), inline=True)
+            embed.add_field(name="Nick", value=self.respuestas.get('¿Cuál será tu nick?'), inline=True)
+            embed.add_field(name="Hobbies", value=self.respuestas.get('¿Cuáles son tus hobbies?'), inline=False)
+            embed.add_field(name="Región", value=personaje.get('region', 'desconocida'), inline=True)
+            embed.add_field(name="Personaje", value=personaje_seleccionado, inline=True)
+            embed.set_thumbnail(url=personaje_image_url)
+            embed.set_footer(text="¡Disfruta tu estadía!", icon_url=self.member.avatar.url if self.member.avatar else None)
+
+            await canal_bienvenida.send(embed=embed)
 
 class PersonajeDropdownView(ui.View):
     def __init__(self, personajes, member, data_file, lock, bot, respuestas):
