@@ -473,10 +473,6 @@
             "region": "Desconocida"
         },
         {
-            "nombre": "Skarner",
-            "region": "Shurima"
-        },
-        {
             "nombre": "Smolder",
             "region": "Desconocida"
         },
@@ -601,18 +597,6 @@
             "region": "Ionia"
         },
         {
-            "nombre": "Xayah",
-            "region": "Ixtal"
-        },
-        {
-            "nombre": "Xerath",
-            "region": "Shurima"
-        },
-        {
-            "nombre": "Xin Zhao",
-            "region": "Demacia"
-        },
-        {
             "nombre": "Yasuo",
             "region": "Ionia"
         },
@@ -649,22 +633,37 @@
             "region": "Demacia"
         },
         {
+            "nombre": "Zyra",
+            "region": "Ionia"
+        },
+        {
+            "nombre": "XinZhao",
+            "region": "Demacia"
+        },
+        {
+            "nombre": "Xerath",
+            "region": "Shurima"
+        },
+        {
             "nombre": "Zoe",
             "region": "Desconocida"
         },
         {
-            "nombre": "Zyra",
-            "region": "Ionia"
-        }
-    ],
-    "asignados": {
-        "1318666952679489616": {
+            "nombre": "Xayah",
+            "region": "Ixtal"
+        },
+        {
             "nombre": "Ambessa",
             "region": "Desconocida"
         },
-        "1333136294670368809": {
+        {
             "nombre": "Alistar",
-            "region": "Nocturne"
+            "region": "Desconocida"
+        },
+        {
+            "nombre": "Skarner",
+            "region": "Shurima"
         }
-    }
+    ],
+    "asignados": {}
 }
